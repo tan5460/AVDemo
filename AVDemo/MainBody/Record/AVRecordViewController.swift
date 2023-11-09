@@ -11,8 +11,12 @@ class AVRecordViewController: AVMainViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = "录制"
+        view.backgroundColor = UIColor.hexColor(0xEEEEEE)
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
 
 }

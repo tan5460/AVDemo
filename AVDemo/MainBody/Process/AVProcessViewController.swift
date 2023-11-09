@@ -11,8 +11,8 @@ class AVProcessViewController: AVMainViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         title = "处理"
+        view.backgroundColor = UIColor.hexColor(0xCCCCCC)
     }
     
 

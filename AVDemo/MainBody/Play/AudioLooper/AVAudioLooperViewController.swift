@@ -36,16 +36,16 @@ class AVAudioLooperViewController: AVMainViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        xy_forceRotate(orientation: .landscapeRight)
+//        xy_forceRotate(orientation: .landscapeRight)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        xy_forceRotate(orientation: .portrait)
+//        xy_forceRotate(orientation: .portrait)
     }
     
     private func createViews() {
-//        navigationController?.navigationBar.barStyle = .black
+//        navigationController?.navigationBar.barStyle = .default
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.largeTitleDisplayMode = .automatic
         

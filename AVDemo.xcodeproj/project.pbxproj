@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		394E124F2AF0D30700C0FCF4 /* XYBaseNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E124E2AF0D30700C0FCF4 /* XYBaseNavigationBar.swift */; };
+		394E12602AF6258400C0FCF4 /* XYTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E125F2AF6258400C0FCF4 /* XYTransitionAnimator.swift */; };
+		394E12622AF6263800C0FCF4 /* XYTransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E12612AF6263800C0FCF4 /* XYTransitionDelegate.swift */; };
 		39606E9E2AEC96E600BECD71 /* AVAudioRotaryKnobControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39606E9D2AEC96E600BECD71 /* AVAudioRotaryKnobControl.swift */; };
 		39E32AC52AE9062400A3D2E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E32AC42AE9062400A3D2E5 /* AppDelegate.swift */; };
 		39E32AC72AE9062400A3D2E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E32AC62AE9062400A3D2E5 /* SceneDelegate.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		394E124E2AF0D30700C0FCF4 /* XYBaseNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseNavigationBar.swift; sourceTree = "<group>"; };
+		394E125F2AF6258400C0FCF4 /* XYTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYTransitionAnimator.swift; sourceTree = "<group>"; };
+		394E12612AF6263800C0FCF4 /* XYTransitionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYTransitionDelegate.swift; sourceTree = "<group>"; };
 		39606E9D2AEC96E600BECD71 /* AVAudioRotaryKnobControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioRotaryKnobControl.swift; sourceTree = "<group>"; };
 		3974EDEA7B4B6531ACCC6267 /* Pods-AVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVDemo.debug.xcconfig"; path = "Target Support Files/Pods-AVDemo/Pods-AVDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		39E32AC12AE9062400A3D2E5 /* AVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,7 +139,10 @@
 			children = (
 				39E6B11A2AEA3ADC0075E18D /* XYBaseTabBarController.swift */,
 				39E6B1182AEA3AC90075E18D /* XYBaseNavigationController.swift */,
+				394E124E2AF0D30700C0FCF4 /* XYBaseNavigationBar.swift */,
 				39E6B11C2AEA3AE80075E18D /* XYBaseViewController.swift */,
+				394E12612AF6263800C0FCF4 /* XYTransitionDelegate.swift */,
+				394E125F2AF6258400C0FCF4 /* XYTransitionAnimator.swift */,
 			);
 			path = XYBaseClass;
 			sourceTree = "<group>";
@@ -354,7 +363,10 @@
 				39E6B1312AEA4B630075E18D /* AVProcessViewController.swift in Sources */,
 				39E6B11D2AEA3AE80075E18D /* XYBaseViewController.swift in Sources */,
 				39E32AC52AE9062400A3D2E5 /* AppDelegate.swift in Sources */,
+				394E124F2AF0D30700C0FCF4 /* XYBaseNavigationBar.swift in Sources */,
 				39E6B1382AEB46D30075E18D /* UIColor+XYExtension.swift in Sources */,
+				394E12622AF6263800C0FCF4 /* XYTransitionDelegate.swift in Sources */,
+				394E12602AF6258400C0FCF4 /* XYTransitionAnimator.swift in Sources */,
 				39E6B1332AEA5F8D0075E18D /* AVGlobal.swift in Sources */,
 				39E6B13D2AEB60D60075E18D /* XYGlobalFunc.swift in Sources */,
 				39E6B1192AEA3AC90075E18D /* XYBaseNavigationController.swift in Sources */,

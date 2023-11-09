@@ -8,6 +8,8 @@
 import UIKit
 
 class AVPlayViewController: AVMainViewController {
+    
+    
 
     let tableView = UITableView(frame: .zero, style: .plain)
     
@@ -17,6 +19,10 @@ class AVPlayViewController: AVMainViewController {
         super.viewDidLoad()
         title = "播放"
         createViews()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .darkContent
     }
     
     private func createViews() {
@@ -31,6 +37,8 @@ class AVPlayViewController: AVMainViewController {
             make.edges.equalTo(0)
         }
     }
+    
+    
   
 }
 
@@ -62,4 +70,12 @@ extension AVPlayViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         55
     }
+    
+    
+    
+    
+    
+    
+    
+    
 }
